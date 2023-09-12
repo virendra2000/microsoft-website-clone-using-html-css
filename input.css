@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@media (max-width:1140px) {
+    .features.active {
+        transform: translateX(0);
+        margin: 0px;
+        float: left;
+    }
+}

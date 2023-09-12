@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft – Cloud, Computers, Apps & Gaming</title>
+    <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="input.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container mx-auto">
+    <div class="navbar bg-white flex justify-between items-center p-4">
+        <div class="flex items-center md:order-2">
+            <div class="hamburger inline-flex p-4 cursor-pointer md:hidden">
+                <i class='bx bx-menu text-4xl cursor-pointer' id="menu-icon"></i>
+            </div>
+            <div class="search md:hidden">
+                <i class='bx bx-search text-4xl'></i>
+            </div>
+        </div>
+        <div class="logo text-center flex md:order-1">
+            <div class="w-[100%] md:w-auto microsoftlogo p-4">
+                <img class="w-32" src="images/logo.png" alt="">
+            </div>
+            <div class="features mx-0 absolute bg-gray-200 md:bg-white w-[250px] md:w-auto md:bg- inset-28 md:inset-0 md:flex md:mx-4 items-center md:static md:space-x-2 -translate-x-96 md:-translate-x-0">
+                <div class="fitem p-4 border-b-[1px] md:border-0 border-gray-300 md:p-1 md:cursor-pointer md:hover:border-b-2 md:hover:border-black"><a href="#">Microsoft 365</a></div>
+                <div class="fitem p-4 border-b-[1px] md:border-0 border-gray-300 md:p-1 md:cursor-pointer md:hover:border-b-2 md:hover:border-black cursor-pointer">Teams</div>
+                <div class="fitem p-4 border-b-[1px] md:border-0 border-gray-300 md:p-1 md:cursor-pointer md:hover:border-b-2 md:hover:border-black cursor-pointer">Windows</div>
+                <div class="fitem p-4 border-b-[1px] md:border-0 border-gray-300 md:p-1 md:cursor-pointer md:hover:border-b-2 md:hover:border-black cursor-pointer">Surface</div>
+                <div class="fitem p-4 border-b-[1px] md:border-0 border-gray-300 md:p-1 md:cursor-pointer md:hover:border-b-2 md:hover:border-black cursor-pointer">Xbox</div>
+                <div class="fitem p-4 border-b-[1px] md:border-0 border-gray-300 md:p-1 md:cursor-pointer md:hover:border-b-2 md:hover:border-black cursor-pointer">Support</div>
+            </div>
+        </div>
+        <div class="cart text-center flex items-center md:order-3">
+            <div class="search hidden items-center space-x-2 md:flex">
+                <div class="mservices">All Microsoft</div>
+                <div class="searchicon">
+                    <i class='bx bx-search text-4xl'></i>
+                </div>
+            </div>
+            <div class="cartaccount flex items-center space-x-2">
+                <i class='bx bx-cart-alt text-4xl'></i>
+                <div class="border border-1 border-black rounded-full">
+                    <i class='bx bx-user-plus p-1 text-4xl cursor-pointer font-normal'></i>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="slider flex flex-col-reverse md:flex-row bg-[#f2f2f2] mx-2">
+        <div class="left flex flex-col justify-center items-center md:items-baseline py-12">
+            <h1 class="text-2xl font-medium md:text-4xl m-5">Surface Laptop 5</h1>
+            <p class="w-3/4 mx-5 text-center md:text-left">Sophisticated style and multitasking speed powered by 12th Gen Intel® Core, with Windows 11</p>
+            <button class="text-white bg-blue-700 px-4 py-2 my-6 rounded-sm font-bold mx-5">Learn more</button>
+        </div>
+        <div class="right">
+            <img class="p-4 w-auto md:w-[64rem]" src="images/ms.png" alt="">
+        </div>
+
+    </div>
+    <div class="promo m-5 justify-center flex flex-col md:flex-row space-y-6">
+            <div class="item flex flex-cols md:flex-col items-center mx-4 mt-6 space-x-2">
+                <img src="images/1.webp">
+                <span class="font-medium">Choose your Microsoft 365</span>
+            </div>
+            <div class="item flex flex-cols md:flex-col items-center mx-4 space-x-2">
+                <img src="images/2.webp">
+                <span class="font-medium">Explore Surface devices</span>
+            </div>
+            <div class="item flex flex-cols md:flex-col items-center mx-4 space-x-2">
+                <img src="images/3.webp">
+                <span class="font-medium">Buy Xbox games and consoles</span>
+            </div>
+            <div class="item flex flex-cols md:flex-col items-center mx-4 space-x-2">
+                <img src="images/1.webp">
+                <span class="font-medium">Get Windows 11</span>
+            </div>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
